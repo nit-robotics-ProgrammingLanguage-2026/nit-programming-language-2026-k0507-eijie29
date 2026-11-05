@@ -14,11 +14,13 @@ int main(void)
         printf("C");
     else if (input >= 1&&input<=59)
         printf("D");
-    else if (input>=101&&input==0&&input<0)
+    else if (input==0)
+    {
+        printf("/ (スラッシュ)");
+    }
+    else
     {
         printf("NG");
-    }
-    
-        
+    }   
     return 0;
 }
